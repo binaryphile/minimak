@@ -1,0 +1,13 @@
+[MiniMak](http://minimak.org/) by Ted Lilley is licensed under a
+[Creative Commons Attribution 3.0 Unported License
+](http://creativecommons.org/licenses/by/3.0/deed.en_US).
+
+The full text of the license can be found at
+http://creativecommons.org/licenses/by/3.0/deed.en_US.
+
+Additionally, these files are provided AS IS. We are not responsible for
+any damage or inconvenience incurred by their use.
+
+MiniMak consists of all of the files in the [github repository]
+(http://github.com/lilleyt/minimak), with the exception of the PKL files
+by FARKAS Máté, which are distributed under GPL 3.
