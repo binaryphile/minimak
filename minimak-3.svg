@@ -34,12 +34,12 @@
    id="namedview6589"
    showgrid="false"
    inkscape:zoom="3.2219976"
-   inkscape:cx="162.5"
-   inkscape:cy="47.361885"
+   inkscape:cx="125.41121"
+   inkscape:cy="44.72377"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg2"
+   inkscape:current-layer="g3116"
    fit-margin-top="0"
    fit-margin-left="0"
    fit-margin-right="0"
@@ -623,6 +623,7 @@
 
 
 
+
   </g><g
      transform="matrix(0.774557,0,0,0.77345,-182.661,-10.3173)"
      id="g205">
@@ -631,6 +632,7 @@
    y="192"
    id="text207"
    style="font-size:18px;font-weight:normal;fill:#2b2828;font-family:Arial">W</text>
+
 
 
 
@@ -663,6 +665,7 @@
 
 
 
+
   </g><g
      transform="matrix(0.774557,0,0,0.77345,-202.456,15.3789)"
      id="g241">
@@ -683,6 +686,7 @@
 
 
 
+
   </g><g
      transform="matrix(0.774557,0,0,0.77345,-171.774,15.3789)"
      id="g245">
@@ -691,6 +695,7 @@
    y="192"
    id="text247"
    style="font-size:18px;font-weight:normal;fill:#2b2828;font-family:Arial">S</text>
+
 
 
 
@@ -737,6 +742,7 @@
 
 
 
+
   </g><g
        id="g253"
        transform="matrix(0.774557,0,0,0.77345,-112.39,15.3789)">
@@ -745,6 +751,7 @@
    id="text255"
    y="192"
    x="400">F</text>
+
 
 
 
@@ -777,6 +784,7 @@
 
 
 
+
   </g></g><g
      transform="matrix(0.774557,0,0,0.77345,-53.9965,15.3789)"
      id="g261">
@@ -785,6 +793,7 @@
    y="192"
    id="text263"
    style="font-size:18px;font-weight:normal;fill:#2b2828;font-family:Arial">H</text>
+
 
 
 
@@ -817,6 +826,7 @@
 
 
 
+
   </g><g
      transform="matrix(0.774557,0,0,0.77345,-160.887,40.0868)"
      id="g281">
@@ -825,6 +835,7 @@
    y="192"
    id="text283"
    style="font-size:18px;font-weight:normal;fill:#2b2828;font-family:Arial">X</text>
+
 
 
 
@@ -857,6 +868,7 @@
 
 
 
+
   </g><g
      transform="matrix(0.774557,0,0,0.77345,-101.504,40.0868)"
      id="g289">
@@ -865,6 +877,7 @@
    y="192"
    id="text291"
    style="font-size:18px;font-weight:normal;fill:#2b2828;font-family:Arial">V</text>
+
 
 
 
@@ -897,33 +910,8 @@
 
 
 
+
   </g><g
-     transform="translate(18.5,-25)"
-     id="g7096"><path
-       inkscape:connector-curvature="0"
-       style="fill:#8ae234;stroke:#202326;stroke-width:0"
-       id="path95"
-       d="m 263,172 20,0 c 1,0 2,2 2,3 l 0,17 c 0,2 -1,3 -2,3 l -20,0 c -2,0 -3,-1 -3,-3 l 0,-17 c 0,-1 1,-3 3,-3 z" /><g
-       id="g297"
-       transform="matrix(0.774557,0,0,0.77345,-42.1195,40.0868)">
-   <text
-   style="font-size:18px;font-weight:normal;fill:#2b2828;font-family:Arial"
-   id="text299"
-   y="192"
-   x="400">N</text>
-
-
-
-
-
-
-
-
-
-
-
-
-  </g></g><g
      transform="matrix(0.774557,0,0,0.77345,-13.4176,40.0868)"
      id="g301">
    <text
@@ -931,6 +919,7 @@
    y="192"
    id="text303"
    style="font-size:18px;font-weight:normal;fill:#2b2828;font-family:Arial">M</text>
+
 
 
 
@@ -981,6 +970,7 @@
 
 
 
+
   </g><g
        id="g269"
        transform="matrix(0.774557,0,0,0.77345,5.38717,15.3789)">
@@ -989,6 +979,7 @@
    id="text271"
    y="192"
    x="400">K</text>
+
 
 
 
@@ -1021,6 +1012,7 @@
 
 
 
+
   </g><g
        id="g693"
        transform="matrix(0.774557,0,0,0.77345,59.8224,18.3438)">
@@ -1041,6 +1033,7 @@
 
 
 
+
   </g><g
        id="g697"
        transform="matrix(0.774557,0,0,0.77345,59.8224,5.49565)">
@@ -1049,6 +1042,7 @@
    id="text699"
    y="192"
    x="400">:</text>
+
 
 
 
@@ -1088,6 +1082,7 @@
 
 
 
+
   </g></g><g
        id="g7113"><path
          inkscape:connector-curvature="0"
@@ -1113,6 +1108,7 @@
 
 
 
+
   </g></g><g
        id="g7121"><path
          inkscape:connector-curvature="0"
@@ -1126,6 +1122,7 @@
    id="text7127"
    y="192"
    x="400">T</text>
+
 
 
 
@@ -1170,6 +1167,7 @@
 
 
 
+
   </g><g
      id="g7147"
      transform="matrix(0.774557,0,0,0.77345,34.6613,15.1827)">
@@ -1178,6 +1176,7 @@
    id="text7149"
    y="192"
    x="400">O</text>
+
 
 
 
@@ -1210,8 +1209,8 @@
 
 
 
+
   </g><g
-     transform="translate(-18.5,25)"
      id="g7172"><path
        inkscape:connector-curvature="0"
        style="fill:#8ae234;stroke:#202326;stroke-width:0"
@@ -1224,6 +1223,33 @@
    id="text7178"
    y="192"
    x="400">U</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </g></g><g
+     id="g3116"><path
+       d="m 263,172 20,0 c 1,0 2,2 2,3 l 0,17 c 0,2 -1,3 -2,3 l -20,0 c -2,0 -3,-1 -3,-3 l 0,-17 c 0,-1 1,-3 3,-3 z"
+       id="path3118"
+       style="fill:#97c5d5;stroke:#202326;stroke-width:0;fill-opacity:1"
+       inkscape:connector-curvature="0" /><g
+       transform="matrix(0.774557,0,0,0.77345,-42.1195,40.0868)"
+       id="g3120">
+   <text
+   x="400"
+   y="192"
+   id="text3122"
+   style="font-size:18px;font-weight:normal;fill:#2b2828;font-family:Arial">N</text>
+
 
 
 
