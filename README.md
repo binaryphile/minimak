@@ -57,6 +57,13 @@ it.
 If you'd like to install it like a normal program, I recommend
 [ZipInstaller](http://www.nirsoft.net/utils/zipinst.html).
 
+Mac OSX Installation
+----
+- Copy `Minimak.bundle` from the OSX directory in the repository to `/Library/Keyboard Layouts` 
+NB: You will need to enter your password
+- Open System Preferences -> Keyboard -> Input Sources 
+- Turn on the layouts you wish to use
+
 Usage
 -----
 
