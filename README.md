@@ -1,5 +1,12 @@
-Boot Mappings for Minimak
-=========================
+Included in this readme:
+
+- [Windows Boot Mappings for Minimak](#wbm)
+- [Portable Key Layout for Minimak](#pkl)
+- [Mac OSX Installation](#osx)
+- [Linux Installation](#lnx)
+
+Windows Boot Mappings for Minimak {: #wbm}
+=================================
 
 To use Minimak as your system layout, registry mappings are included in
 the `boot_mappings` subdirectory.
@@ -31,7 +38,7 @@ reboot.
 Once you've rebooted, your layout is changed and you don't have to do
 anything further to use it.
 
-Portable Key Layout for Minimak
+Portable Key Layout for Minimak {: #pkl}
 ===============================
 
 This is a copy of the [PKL](http://pkl.sourceforge.net/) project which
@@ -57,13 +64,6 @@ it.
 If you'd like to install it like a normal program, I recommend
 [ZipInstaller](http://www.nirsoft.net/utils/zipinst.html).
 
-Mac OSX Installation
-----
-- Copy `Minimak.bundle` from the OSX directory in the repository to `/Library/Keyboard Layouts` 
-NB: You will need to enter your password
-- Open System Preferences -> Keyboard -> Input Sources 
-- Turn on the layouts you wish to use
-
 Usage
 -----
 
@@ -74,3 +74,45 @@ Usage
   and it will move.
 - __To get rid of the on-screen keyboard:__  press Win-F1.
 - __To toggle the layout on and off:__  press both Alt keys.
+
+Mac OSX Installation {: #osx}
+====================
+
+- Copy `Minimak.bundle` from the `osx` directory in the repository to `/Library/Keyboard Layouts` 
+  You will need to enter your password
+- Open _System Preferences > Keyboard > Input Sources_
+- Turn on the layouts you wish to use
+
+For information on Backslock on the Mac, see the [Colemak Mac page].
+
+Linux Installation
+==================
+
+These are brand new mappings and untested since I don't have a machine
+with X to test on.  The mappings are simple enough that I'm confident
+most will work with the possible exception of the P and semicolon
+mappings, since I'm not sure whether the semicolon keysym is spelled
+out.
+
+The `linux` directory holds [xmodmap] mapping files.  See the [Window
+Boot Mapping section](#wbm) for descriptions of each of the files.
+
+To try the keymappings for the length of your login session, run the
+command:
+
+    xmodmap filename
+
+where filename is the name of the mapping you've chosen.
+
+To install one for your login, first copy the file to `~/.Xmodmap`, then
+add the following to `~/.xinitrc`:
+
+    if [ -f $HOME/.Xmodmap ]; then
+        /usr/bin/xmodmap $HOME/.Xmodmap
+    fi
+
+There are no Backslock mappings since many Linux systems have Backslock
+as a possible configuraion choice in their keyboard settings.
+
+[Colemak Mac page]: http://colemak.com/wiki/index.php?title=Mac 
+[xmodmap]: https://wiki.archlinux.org/index.php/Xmodmap

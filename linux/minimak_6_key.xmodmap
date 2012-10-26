@@ -1,0 +1,10 @@
+keysym e=d D
+keysym t=k K
+keysym d=t T
+keysym k=e E
+keysym f=r R
+keysym r=f F
+keysym o=l L
+keysym l=o O
+keysym p=semicolon colon
+keysym semicolon=p P
