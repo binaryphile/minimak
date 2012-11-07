@@ -8,3 +8,5 @@ lessons.  From the dropdown, select _Import_ and open the word list file
 which corresponds with your Minimak layout.  Change the name if you
 desire, and make sure the lesson type is _Word_.  Change any other
 settings you desire, then start the lesson.
+
+[TIPP10]: http://www.tipp10.com/en/
