@@ -1,0 +1,69 @@
+freqs: {
+  ab: 1, ac: 1, ad: 1, ae: 1, af: 1, ag: 1, ah: 1, ai: 1, aj: 1, ak: 1, al: 1, am: 1, an: 1, ao: 1, ap: 1, aq: 1, ar: 1, as: 1, at: 1, au: 1, av: 1, aw: 1, ax: 1, ay: 1, az: 1,
+  bc: 1, bd: 1, be: 1, bf: 1, bg: 1, bh: 1, bi: 1, bj: 1, bk: 1, bl: 1, bm: 1, bn: 1, bo: 1, bp: 1, bq: 1, br: 1, bs: 1, bt: 1, bu: 1, bv: 1, bw: 1, bx: 1, by: 1, bz: 1,
+  cd: 1, ce: 1, cf: 1, cg: 1, ch: 1, ci: 1, cj: 1, ck: 1, cl: 1, cm: 1, cn: 1, co: 1, cp: 1, cq: 1, cr: 1, cs: 1, ct: 1, cu: 1, cv: 1, cw: 1, cx: 1, cy: 1, cz: 1,
+  de: 1, df: 1, dg: 1, dh: 1, di: 1, dj: 1, dk: 1, dl: 1, dm: 1, dn: 1, do: 1, dp: 1, dq: 1, dr: 1, ds: 1, dt: 1, du: 1, dv: 1, dw: 1, dx: 1, dy: 1, dz: 1,
+  ef: 1, eg: 1, eh: 1, ei: 1, ej: 1, ek: 1, el: 1, em: 1, en: 1, eo: 1, ep: 1, eq: 1, er: 1, es: 1, et: 1, eu: 1, ev: 1, ew: 1, ex: 1, ey: 1, ez: 1,
+  fg: 1, fh: 1, fi: 1, fj: 1, fk: 1, fl: 1, fm: 1, fn: 1, fo: 1, fp: 1, fq: 1, fr: 1, fs: 1, ft: 1, fu: 1, fv: 1, fw: 1, fx: 1, fy: 1, fz: 1,
+  gh: 1, gi: 1, gj: 1, gk: 1, gl: 1, gm: 1, gn: 1, go: 1, gp: 1, gq: 1, gr: 1, gs: 1, gt: 1, gu: 1, gv: 1, gw: 1, gx: 1, gy: 1, gz: 1,
+  hi: 1, hj: 1, hk: 1, hl: 1, hm: 1, hn: 1, ho: 1, hp: 1, hq: 1, hr: 1, hs: 1, ht: 1, hu: 1, hv: 1, hw: 1, hx: 1, hy: 1, hz: 1,
+  ij: 1, ik: 1, il: 1, im: 1, in: 1, io: 1, ip: 1, iq: 1, ir: 1, is: 1, it: 1, iu: 1, iv: 1, iw: 1, ix: 1, iy: 1, iz: 1,
+  jk: 1, jl: 1, jm: 1, jn: 1, jo: 1, jp: 1, jq: 1, jr: 1, js: 1, jt: 1, ju: 1, jv: 1, jw: 1, jx: 1, jy: 1, jz: 1,
+  kl: 1, km: 1, kn: 1, ko: 1, kp: 1, kq: 1, kr: 1, ks: 1, kt: 1, ku: 1, kv: 1, kw: 1, kx: 1, ky: 1, kz: 1,
+  lm: 1, ln: 1, lo: 1, lp: 1, lq: 1, lr: 1, ls: 1, lt: 1, lu: 1, lv: 1, lw: 1, lx: 1, ly: 1, lz: 1,
+  mn: 1, mo: 1, mp: 1, mq: 1, mr: 1, ms: 1, mt: 1, mu: 1, mv: 1, mw: 1, mx: 1, my: 1, mz: 1,
+  "no": 1, np: 1, nq: 1, nr: 1, ns: 1, nt: 1, nu: 1, nv: 1, nw: 1, nx: 1, ny: 1, nz: 1,
+  op: 1, oq: 1, or: 1, os: 1, ot: 1, ou: 1, ov: 1, ow: 1, ox: 1, oy: 1, oz: 1,
+  pq: 1, pr: 1, ps: 1, pt: 1, pu: 1, pv: 1, pw: 1, px: 1, py: 1, pz: 1,
+  qr: 1, qs: 1, qt: 1, qu: 1, qv: 1, qw: 1, qx: 1, qy: 1, qz: 1,
+  rs: 1, rt: 1, ru: 1, rv: 1, rw: 1, rx: 1, ry: 1, rz: 1,
+  st: 1, su: 1, sv: 1, sw: 1, sx: 1, sy: 1, sz: 1,
+  tu: 1, tv: 1, tw: 1, tx: 1, ty: 1, tz: 1,
+  uv: 1, uw: 1, ux: 1, uy: 1, uz: 1,
+  vw: 1, vx: 1, vy: 1, vz: 1,
+  wx: 1, wy: 1, wz: 1,
+  xy: 1, xz: 1,
+  yz: 1
+  }
+
+freqs_sparse: {
+  ab: 1, ac: 0.5,
+  bc: 1
+  }
+
+weights_sparse: {
+  ab: 1, ac: 1,
+  bc: 1
+  }
+
+weights: {
+  ab: 1, ac: 1, ad: 1, ae: 1, af: 1, ag: 1, ah: 1, ai: 1, aj: 1, ak: 1, al: 1, am: 1, an: 1, ao: 1, ap: 1, aq: 1, ar: 1, as: 1, at: 1, au: 1, av: 1, aw: 1, ax: 1, ay: 1, az: 1,
+  bc: 1, bd: 1, be: 1, bf: 1, bg: 1, bh: 1, bi: 1, bj: 1, bk: 1, bl: 1, bm: 1, bn: 1, bo: 1, bp: 1, bq: 1, br: 1, bs: 1, bt: 1, bu: 1, bv: 1, bw: 1, bx: 1, by: 1, bz: 1,
+  cd: 1, ce: 1, cf: 1, cg: 1, ch: 1, ci: 1, cj: 1, ck: 1, cl: 1, cm: 1, cn: 1, co: 1, cp: 1, cq: 1, cr: 1, cs: 1, ct: 1, cu: 1, cv: 1, cw: 1, cx: 1, cy: 1, cz: 1,
+  de: 1, df: 1, dg: 1, dh: 1, di: 1, dj: 1, dk: 1, dl: 1, dm: 1, dn: 1, do: 1, dp: 1, dq: 1, dr: 1, ds: 1, dt: 1, du: 1, dv: 1, dw: 1, dx: 1, dy: 1, dz: 1,
+  ef: 1, eg: 1, eh: 1, ei: 1, ej: 1, ek: 1, el: 1, em: 1, en: 1, eo: 1, ep: 1, eq: 1, er: 1, es: 1, et: 1, eu: 1, ev: 1, ew: 1, ex: 1, ey: 1, ez: 1,
+  fg: 1, fh: 1, fi: 1, fj: 1, fk: 1, fl: 1, fm: 1, fn: 1, fo: 1, fp: 1, fq: 1, fr: 1, fs: 1, ft: 1, fu: 1, fv: 1, fw: 1, fx: 1, fy: 1, fz: 1,
+  gh: 1, gi: 1, gj: 1, gk: 1, gl: 1, gm: 1, gn: 1, go: 1, gp: 1, gq: 1, gr: 1, gs: 1, gt: 1, gu: 1, gv: 1, gw: 1, gx: 1, gy: 1, gz: 1,
+  hi: 1, hj: 1, hk: 1, hl: 1, hm: 1, hn: 1, ho: 1, hp: 1, hq: 1, hr: 1, hs: 1, ht: 1, hu: 1, hv: 1, hw: 1, hx: 1, hy: 1, hz: 1,
+  ij: 1, ik: 1, il: 1, im: 1, in: 1, io: 1, ip: 1, iq: 1, ir: 1, is: 1, it: 1, iu: 1, iv: 1, iw: 1, ix: 1, iy: 1, iz: 1,
+  jk: 1, jl: 1, jm: 1, jn: 1, jo: 1, jp: 1, jq: 1, jr: 1, js: 1, jt: 1, ju: 1, jv: 1, jw: 1, jx: 1, jy: 1, jz: 1,
+  kl: 1, km: 1, kn: 1, ko: 1, kp: 1, kq: 1, kr: 1, ks: 1, kt: 1, ku: 1, kv: 1, kw: 1, kx: 1, ky: 1, kz: 1,
+  lm: 1, ln: 1, lo: 1, lp: 1, lq: 1, lr: 1, ls: 1, lt: 1, lu: 1, lv: 1, lw: 1, lx: 1, ly: 1, lz: 1,
+  mn: 1, mo: 1, mp: 1, mq: 1, mr: 1, ms: 1, mt: 1, mu: 1, mv: 1, mw: 1, mx: 1, my: 1, mz: 1,
+  "no": 1, np: 1, nq: 1, nr: 1, ns: 1, nt: 1, nu: 1, nv: 1, nw: 1, nx: 1, ny: 1, nz: 1,
+  op: 1, oq: 1, or: 1, os: 1, ot: 1, ou: 1, ov: 1, ow: 1, ox: 1, oy: 1, oz: 1,
+  pq: 1, pr: 1, ps: 1, pt: 1, pu: 1, pv: 1, pw: 1, px: 1, py: 1, pz: 1,
+  qr: 1, qs: 1, qt: 1, qu: 1, qv: 1, qw: 1, qx: 1, qy: 1, qz: 1,
+  rs: 1, rt: 1, ru: 1, rv: 1, rw: 1, rx: 1, ry: 1, rz: 1,
+  st: 1, su: 1, sv: 1, sw: 1, sx: 1, sy: 1, sz: 1,
+  tu: 1, tv: 1, tw: 1, tx: 1, ty: 1, tz: 1,
+  uv: 1, uw: 1, ux: 1, uy: 1, uz: 1,
+  vw: 1, vx: 1, vy: 1, vz: 1,
+  wx: 1, wy: 1, wz: 1,
+  xy: 1, xz: 1,
+  yz: 1
+  }
+
+second_freqs: {kn: 0.5}
+
+second_weights: {ep: 1}
