@@ -27,14 +27,14 @@ order: [
   ]
 
 weights: {
-  ab: 2, ac: 2, ad: 1, ae: 2, aj: 4, ak: 3, al: 2, am: 1, an: 2, at: 5,
-  au: 4, av: 3, aw: 2, ax: 2, bd: 1, be: 2, bj: 2, bk: 3, bl: 1, bm: 1,
-  bn: 2, bt: 3, bu: 4, bv: 3, bw: 1, bx: 2, cd: 1, ce: 2, cj: 1, ck: 1,
-  cl: 3, cm: 1, cn: 2, ct: 2, cu: 3, cv: 4, cw: 2, cx: 3, de: 3, dj: 2,
-  dk: 2, dl: 1, dm: 3, dn: 3, dt: 2, du: 2, dv: 3, dw: 4, dx: 4, ej: 1,
+  ae: 1, aj: 4, ak: 2, al: 1, am: 1, an: 2, at: 5,
+  au: 3, av: 2, aw: 2, ax: 3, be: 1, bj: 2, bk: 3, bl: 1, bm: 1,
+  bn: 2, bt: 2, bu: 4, bv: 2, bw: 1, bx: 2, ce: 1, cj: 1, ck: 1,
+  cl: 3, cm: 1, cn: 2, ct: 2, cu: 2, cv: 4, cw: 2, cx: 3, de: 3, dj: 1,
+  dk: 1, dl: 2, dm: 3, dn: 3, dt: 2, du: 2, dv: 3, dw: 4, dx: 4, ej: 1,
   ek: 2, el: 3, em: 3, en: 3, et: 3, eu: 3, ev: 3, ew: 4, ex: 4, fg: 3,
-  fh: 2, fi: 2, fo: 3, fp: 3, fq: 2, fr: 2, fs: 1, fy: 4, fz: 4, gh: 1,
-  gi: 1, go: 3, gp: 3, gq: 1, gr: 2, gs: 2, gy: 4, gz: 4, ho: 2, hp: 1,
+  fh: 1, fi: 1, fo: 3, fp: 3, fq: 2, fr: 2, fs: 1, fy: 4, fz: 4,
+  go: 3, gp: 3, gq: 2, gr: 1, gs: 1, gy: 4, gz: 4, ho: 2, hp: 1,
   hq: 3, hr: 1, hs: 1, hy: 3, hz: 2, io: 2, ip: 1, iq: 1, ir: 3, is: 2,
   iy: 2, iz: 1, jn: 1, jt: 4, ju: 2, jv: 1, jw: 1, jx: 2, kn: 1, kt: 2,
   ku: 3, kv: 2, kw: 1, kx: 2, ln: 1, lt: 1, lu: 2, lv: 3, lw: 1, lx: 2,

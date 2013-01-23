@@ -42,5 +42,5 @@ def union_(first, second, pairs):
                 result += [(pairs[pair], pair)]
     return result
 
-sweet_spot()
-row_jumps()
+#sweet_spot()
+#row_jumps()

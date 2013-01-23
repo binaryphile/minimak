@@ -1,2 +1,4 @@
 *.zip
 /dist/
+*.pyc
+*.png
