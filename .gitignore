@@ -2,3 +2,7 @@
 /dist/
 *.pyc
 *.png
+/bin/
+/include/
+/lib/
+/local/
