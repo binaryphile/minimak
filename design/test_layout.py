@@ -3,6 +3,8 @@ import yaml
 from unipath import Path
 from layout import *
 
+sample_layout = yaml.safe_load(Path('test_layout.yml').read_file())
+
 def test_layout():
     expected = '''\
 qwertyuio
@@ -14,7 +16,7 @@ zxcvbnm'''
     assert expected == actual
 
 def test_metric():
-    sample = yaml.safe_load(Path('test_layout.yml').read_file())
+    sample = sample_layout
     expected = 26*25/2
     actual = Layout(freqs=sample['freqs'], weights=sample['weights']).metric
     print 'Expected:\n', expected
@@ -26,7 +28,7 @@ def test_layout_valid_init():
     actual = Layout('a')
 
 def test_second_metric():
-    data = yaml.safe_load(Path('test_layout.yml').read_file())
+    data = sample_layout
     sample = {
         'value': 'qwdfkyuilastrghneopzxcvbjm'
         , 'freqs': data['second_freqs']
@@ -49,17 +51,17 @@ def test_freqs():
     assert expected == actual
 
 def test_freqs_array():
-    sample = yaml.safe_load(Path('test_layout.yml').read_file())
+    sample = sample_layout
     expected = [1]*(26*25/2)
-    actual = Layout(freqs=sample['freqs'])._freqs
+    actual = Layout(freqs=sample['freqs'])._array_freqs
     print 'Expected:\n', expected
     print '\nActual:\n', actual
     assert expected == actual
 
 def test_freqs_array_sparse():
-    sample = yaml.safe_load(Path('test_layout.yml').read_file())
+    sample = sample_layout
     expected = 2.5
-    actual = sum(Layout(freqs=sample['freqs_sparse'])._freqs)
+    actual = sum(Layout(freqs=sample['freqs_sparse'])._array_freqs)
     print 'Expected:\n', expected
     print '\nActual:\n', actual
     assert expected == actual
@@ -72,20 +74,29 @@ def test_weights():
     assert expected == actual
 
 def test_weights_array():
-    sample = yaml.safe_load(Path('test_layout.yml').read_file())
+    sample = sample_layout
     expected = [1]*(26*25/2)
-    actual = Layout(weights=sample['weights'])._weights
+    actual = Layout(weights=sample['weights'])._array_weights
     print 'Expected:\n', expected
     print '\nActual:\n', actual
     assert expected == actual
 
 def test_weights_array_sparse():
-    sample = yaml.safe_load(Path('test_layout.yml').read_file())
+    sample = sample_layout
     expected = 3
-    actual = sum(Layout(weights=sample['weights_sparse'])._weights)
+    actual = sum(Layout(weights=sample['weights_sparse'])._array_weights)
     print 'Expected:\n', expected
     print '\nActual:\n', actual
     assert expected == actual
+
+def test_shuffle():
+    expected = 0.67700000000000038
+    l = Layout()
+    l.shuffle()
+    actual = l.metric
+    print 'Expected:\n', expected
+    print '\nActual:\n', actual
+    assert expected != actual
 
 if __name__ == '__main__':
     test_second_metric()
