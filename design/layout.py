@@ -7,6 +7,7 @@ from bunch import bunchify
 
 rand.seed()
 cfg = bunchify(yaml.safe_load(Path('layout.yml').read_file()))
+values = list('qwdfkyuilasrghnopzxcvbjm')
 
 class Layout(object):
     def __init__(self, value='qwertyuioasdfghjklpzxcvbnm', freqs=None, weights=None):
@@ -54,7 +55,9 @@ class Layout(object):
         return result
 
     def shuffle(self):
-        val_list = list(self._value)
-        rand.shuffle(val_list)
+        rand.shuffle(values)
+        val_list = values[:]
+        val_list.insert(10, 't')
+        val_list.insert(17, 'e')
         self._value = ''.join(val_list)
         self._array_weights = self._weights_array()

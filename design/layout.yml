@@ -27,20 +27,20 @@ order: [
   ]
 
 weights: {
-  ae: 1, aj: 4, ak: 2, al: 1, am: 1, an: 2, at: 5,
-  au: 3, av: 2, aw: 2, ax: 3, be: 1, bj: 2, bk: 3, bl: 1, bm: 1,
-  bn: 2, bt: 2, bu: 4, bv: 2, bw: 1, bx: 2, ce: 1, cj: 1, ck: 1,
-  cl: 3, cm: 1, cn: 2, ct: 2, cu: 2, cv: 4, cw: 2, cx: 3, de: 3, dj: 1,
-  dk: 1, dl: 2, dm: 3, dn: 3, dt: 2, du: 2, dv: 3, dw: 4, dx: 4, ej: 1,
-  ek: 2, el: 3, em: 3, en: 3, et: 3, eu: 3, ev: 3, ew: 4, ex: 4, fg: 3,
-  fh: 1, fi: 1, fo: 3, fp: 3, fq: 2, fr: 2, fs: 1, fy: 4, fz: 4,
+  ae: 2, aj: 4, ak: 2, al: 1, am: 1, an: 2, at: 5,
+  au: 4, av: 3, aw: 2, ax: 2, be: 2, bj: 2, bk: 3, bl: 1, bm: 1,
+  bn: 2, bt: 4, bu: 4, bv: 2, bw: 1, bx: 2, ce: 2, cj: 1, ck: 2,
+  cl: 3, cm: 1, cn: 2, ct: 3, cu: 4, cv: 4, cw: 3, cx: 4, de: 4, dj: 1,
+  dk: 2, dl: 3, dm: 3, dn: 3, dt: 3, du: 4, dv: 4, dw: 5, dx: 4, ej: 2,
+  ek: 2, el: 3, em: 4, en: 4, et: 4, eu: 4, ev: 4, ew: 5, ex: 5, fg: 3,
+  fh: 2, fi: 2, fo: 4, fp: 4, fq: 3, fr: 3, fs: 2, fy: 5, fz: 5,
   go: 3, gp: 3, gq: 2, gr: 1, gs: 1, gy: 4, gz: 4, ho: 2, hp: 1,
-  hq: 3, hr: 1, hs: 1, hy: 3, hz: 2, io: 2, ip: 1, iq: 1, ir: 3, is: 2,
-  iy: 2, iz: 1, jn: 1, jt: 4, ju: 2, jv: 1, jw: 1, jx: 2, kn: 1, kt: 2,
-  ku: 3, kv: 2, kw: 1, kx: 2, ln: 1, lt: 1, lu: 2, lv: 3, lw: 1, lx: 2,
-  mn: 3, mt: 1, mu: 1, mv: 2, mw: 3, mx: 3, nt: 1, nu: 1, nv: 2, nw: 3,
-  nx: 3, op: 3, oq: 1, or: 1, os: 1, oy: 3, oz: 3, py: 3, pz: 3, qy: 2,
-  qz: 1, ry: 2, rz: 1, sy: 2, sz: 1, tx: 1, ux: 1, vx: 1, wx: 3, yz: 3
+  hq: 3, hr: 1, hs: 1, hy: 2, hz: 1, io: 2, ip: 1, iq: 1, ir: 3, is: 2,
+  iy: 1, iz: 1, jn: 1, jt: 4, ju: 3, jv: 1, jw: 1, jx: 2, kn: 1, kt: 3,
+  ku: 3, kv: 3, kw: 1, kx: 2, ln: 1, lt: 2, lu: 3, lv: 3, lw: 1, lx: 3,
+  mn: 3, mt: 2, mu: 3, mv: 3, mw: 3, mx: 4, nt: 2, nu: 2, nv: 3, nw: 3,
+  nx: 4, op: 3, oq: 1, or: 1, os: 1, oy: 3, oz: 3, py: 3, pz: 3, qy: 2,
+  qz: 1, ry: 1, rz: 1, sy: 1, sz: 1, tx: 2, ux: 2, vx: 2, wx: 4, yz: 3
   }
 
 freqs: {
