@@ -7,7 +7,13 @@ from bunch import bunchify
 
 rand.seed()
 cfg = bunchify(yaml.safe_load(Path('layout.yml').read_file()))
-values = list('qwdfkyuilasrghnopzxcvbjm')
+left = list('blvjfkhqwmrc')
+right = list('xzugy')
+right_home = list('oai')
+remain = list('dps')
+
+def assemble(left, right):
+    return left[:5] + right[:4] + left[5:9] + right[4:8] + left[9:] + right[8:]
 
 class Layout(object):
     def __init__(self, value='qwertyuioasdfghjklpzxcvbnm', freqs=None, weights=None):
@@ -55,8 +61,18 @@ class Layout(object):
         return result
 
     def shuffle(self):
-        rand.shuffle(values)
-        val_list = values[:]
+        rand.shuffle(remain)
+        left_list = left[:]
+        right_list = right[:]
+        left_list += [remain[0]]
+        right_list += remain[1:]
+        rand.shuffle(left_list)
+        k = rand.randint(0, 2)
+        left_list.insert(5 + k, 'n')
+        rand.shuffle(right_list)
+        rand.shuffle(right_home)
+        right_list[5:5] = right_home[:]
+        val_list = assemble(left_list, right_list)
         val_list.insert(10, 't')
         val_list.insert(17, 'e')
         self._value = ''.join(val_list)
