@@ -13,5 +13,5 @@ sudo cp gb /usr/share/X11/xkb/symbols/
 if you are in the US:
 sudo cp us /usr/share/X11/xkb/symbols/
 
-If you are worried about overwriting the existing xkb files then do a diff first
-to check you are happy with things
+As a preautionary measure, make backup copies of the original files before you
+copy in the replacements so you can restore them if the minimak ones don't work

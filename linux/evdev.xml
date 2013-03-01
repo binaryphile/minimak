@@ -1379,6 +1379,24 @@
                           <iso639Id>srp</iso639Id> </languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>minimak-4</name>
+            <description>English (US, Minimak-4)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>minimak-8</name>
+            <description>English (US, Minimak-8)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>minimak-12</name>
+            <description>English (US, Minimak-12)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -4929,6 +4947,24 @@
             <description>English (UK, Colemak)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>minimak-4</name>
+            <description>English (UK, Minimak-4)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>minimak-8</name>
+            <description>English (UK, Minimak-8)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>minimak-12</name>
+            <description>English (UK, Minimak-12)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -5462,60 +5498,7 @@
           </configItem>
         </variant>
       </variantList>
-    </layout>
-
-    <layout>
-      <configItem>
-        <name>gb-minimak</name>
-        
-        <shortDescription>en-minimak</shortDescription>
-        <description>English (UK, Minimak-4)</description>
-        <languageList>
-          <iso639Id>eng</iso639Id>
-        </languageList>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>minimak-8</name>
-            <description>English (UK, Minimak-8)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>minimak-12</name>
-            <description>English (UK, Minimak-12)</description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-
-    <layout>
-      <configItem>
-        <name>us-minimak</name>
-        
-        <shortDescription>en-minimak</shortDescription>
-        <description>English (US, Minimak-4)</description>
-        <languageList>
-          <iso639Id>eng</iso639Id>
-        </languageList>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>minimak-8</name>
-            <description>English (US, Minimak-8)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>minimak-12</name>
-            <description>English (US, Minimak-12)</description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    
+    </layout>    
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
