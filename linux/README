@@ -1,0 +1,17 @@
+Ubuntu Minimak Keymaps
+
+Allows minimak keyboard layouts to be loaded from 'System Settings'->'Keyboard
+Layout'
+
+cd minimak/linux
+sudo cp evdev.lst /usr/share/X11/xkb/rules/
+sudo cp evdev.xml /usr/share/X11/xkb/rules/
+
+if you are in the UK:
+sudo cp gb /usr/share/X11/xkb/symbols/
+
+if you are in the US:
+sudo cp us /usr/share/X11/xkb/symbols/
+
+If you are worried about overwriting the existing xkb files then do a diff first
+to check you are happy with things
