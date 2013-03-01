@@ -1,0 +1,74 @@
+// US Minimak keyboard maps
+// based on a keyboard map from an 'xkb/symbols/us' file
+// By Ben Hiett (bphiett@yahoo.co.uk)
+
+partial default alphanumeric_keys
+xkb_symbols "basic" {
+
+    // Describes the differences between a basic US keyboard layout and
+    // Minimak-4
+
+    include "us(basic)"
+
+    name[Group1]="English (US, Minimak-4";
+
+    key <AD03> { [         d,          D 		]	};
+    key <AD05> { [         k,          K 		]	};
+
+    key <AC03> { [         t,          T 		]	};
+    key <AC08> { [         e,          E 		]	};
+        
+    include "level3(ralt_switch_multikey)"
+};
+
+partial default alphanumeric_keys
+xkb_symbols "minimak-8" {
+
+    // Describes the differences between a basic US keyboard layout and
+    // Minimak-8
+
+    include "us(basic)"
+
+    name[Group1]="English (US, Minimak-8";
+    
+    key <AD03> { [         d,          D 		]	};
+    key <AD05> { [         k,          K 		]	};
+    key <AD09> { [         l,          L 		]	};
+    
+    key <AC03> { [         t,          T 		]	};
+    key <AC07> { [         n,          N 		]	};
+    key <AC08> { [         e,          E 		]	};
+    key <AC09> { [         o,          O 		]	};
+
+    key <AB06> { [         j,          J 		]	};
+
+    include "level3(ralt_switch_multikey)"
+};
+
+partial default alphanumeric_keys
+xkb_symbols "minimak-12" {
+
+    // Describes the differences between a basic US keyboard layout and
+    // Minimak-12
+
+    include "us(basic)"
+
+    name[Group1]="English (US, Minimak-12";
+    
+    key <AD03> { [         d,          D 		]	};
+    key <AD04> { [         f,          F 		]	};
+    key <AD05> { [         k,          K 		]	};
+    key <AD09> { [         l,          L 		]	};
+    key <AD10> { [ semicolon,    colon 		]	};
+    
+    key <AC03> { [         t,          T 		]	};
+    key <AC04> { [         r,          R 		]	};
+    key <AC07> { [         n,          N 		]	};
+    key <AC08> { [         e,          E 		]	};
+    key <AC09> { [         o,          O 		]	};
+    key <AC10> { [         p,          P 		]	};
+
+    key <AB06> { [         j,          J 		]	};
+    
+    include "level3(ralt_switch_multikey)"
+};
