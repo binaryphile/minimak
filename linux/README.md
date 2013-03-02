@@ -1,17 +1,33 @@
 Ubuntu Minimak Keymaps
+======================
 
-Allows minimak keyboard layouts to be loaded from 'System Settings'->'Keyboard
-Layout'
+Allows minimak keyboard layouts to be loaded from _System
+Settings -> Keyboard Layout_.
 
+Installation
+------------
+
+First, make backup copies the originals of these files:
+
+~~~
+/usr/share/X11/xkb/rules/evdev.lst
+/usr/share/X11/xkb/rules/evdev.xml
+~~~
+
+Then open a shell and run the following commands:
+
+~~~
 cd minimak/linux
 sudo cp evdev.lst /usr/share/X11/xkb/rules/
 sudo cp evdev.xml /usr/share/X11/xkb/rules/
+~~~
 
-if you are in the UK:
+Finally copy the contents of the directory appropriate for your locale,
+US or UK:
+
+~~~
 sudo cp gb /usr/share/X11/xkb/symbols/
-
-if you are in the US:
+ - or -
 sudo cp us /usr/share/X11/xkb/symbols/
+~~~
 
-As a preautionary measure, make backup copies of the original files before you
-copy in the replacements so you can restore them if the minimak ones don't work
