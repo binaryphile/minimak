@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-10-23 at 10:50 (BST)-->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-23 at 10:52 (BST)-->
+<!--Last edited by Ukelele version 2.2.4 on 2013-09-09 at 15:16 (BST)-->
 <keyboard group="0" id="14242" name="Minimak (4 Key)" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -269,7 +269,7 @@
         <keyMap index="2">
             <key code="0" action="12"/>
             <key code="1" output="S"/>
-            <key code="2" output="D"/>
+            <key code="2" output="T"/>
             <key code="3" output="F"/>
             <key code="4" output="H"/>
             <key code="5" output="G"/>
@@ -284,7 +284,7 @@
             <key code="14" action="6"/>
             <key code="15" output="R"/>
             <key code="16" action="17"/>
-            <key code="17" output="T"/>
+            <key code="17" output="K"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
@@ -307,7 +307,7 @@
             <key code="37" output="L"/>
             <key code="38" output="J"/>
             <key code="39" output="&#x0027;"/>
-            <key code="40" output="K"/>
+            <key code="40" output="E"/>
             <key code="41" output=";"/>
             <key code="42" output="\"/>
             <key code="43" output=","/>
