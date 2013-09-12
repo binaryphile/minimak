@@ -88,28 +88,32 @@ For information on Backslock on the Mac, see the [Colemak Mac page].
 Linux Installation
 ==================
 
-These are brand new mappings and untested since I don't have a machine
-with X to test on.  The mappings are simple enough that I'm confident
-most will work with the possible exception of the P and semicolon
-mappings, since I'm not sure whether the semicolon keysym is spelled
-out.
+Allows minimak keyboard layouts to be loaded from _System
+Settings -> Keyboard Layout_.
 
-The `linux` directory holds [xmodmap] mapping files.  See the [Window
-Boot Mapping section](#wbm) for descriptions of each of the files.
+First, make backup copies the originals of these files:
 
-To try the keymappings for the length of your login session, run the
-command:
+~~~
+/usr/share/X11/xkb/rules/evdev.lst
+/usr/share/X11/xkb/rules/evdev.xml
+~~~
 
-    xmodmap filename
+Then open a shell and run the following commands:
 
-where filename is the name of the mapping you've chosen.
+~~~
+cd minimak/linux
+sudo cp evdev.lst /usr/share/X11/xkb/rules/
+sudo cp evdev.xml /usr/share/X11/xkb/rules/
+~~~
 
-To install one for your login, first copy the file to `~/.Xmodmap`, then
-add the following to `~/.xinitrc`:
+Finally copy the contents of the directory appropriate for your locale,
+US or UK:
 
-    if [ -f $HOME/.Xmodmap ]; then
-        /usr/bin/xmodmap $HOME/.Xmodmap
-    fi
+~~~
+sudo cp gb /usr/share/X11/xkb/symbols/
+ - or -
+sudo cp us /usr/share/X11/xkb/symbols/
+~~~
 
 There are no Backslock mappings since many Linux systems have Backslock
 as a possible configuraion choice in their keyboard settings.
