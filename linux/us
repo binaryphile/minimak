@@ -1348,7 +1348,7 @@ xkb_symbols "minimak-4" {
 
     include "us(basic)"
 
-    name[Group1]="English (US, Minimak-4";
+    name[Group1]="English (US, Minimak-4)";
 
     key <AD03> { [         d,          D 		]	};
     key <AD05> { [         k,          K 		]	};
@@ -1367,7 +1367,7 @@ xkb_symbols "minimak-8" {
 
     include "us(basic)"
 
-    name[Group1]="English (US, Minimak-8";
+    name[Group1]="English (US, Minimak-8)";
     
     key <AD03> { [         d,          D 		]	};
     key <AD05> { [         k,          K 		]	};
@@ -1391,7 +1391,7 @@ xkb_symbols "minimak-12" {
 
     include "us(basic)"
 
-    name[Group1]="English (US, Minimak-12";
+    name[Group1]="English (US, Minimak-12)";
     
     key <AD03> { [         d,          D 		]	};
     key <AD04> { [         f,          F 		]	};
@@ -1410,3 +1410,4 @@ xkb_symbols "minimak-12" {
     
     include "level3(ralt_switch_multikey)"
 };
+
