@@ -1397,6 +1397,24 @@
             <description>English (US, Minimak-12)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>minimak-4-alt-intl</name>
+            <description>English (US, Minimak-4 alternative international)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>minimak-8-alt-intl</name>
+            <description>English (US, Minimak-8 alternative international)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>minimak-12-alt-intl</name>
+            <description>English (US, Minimak-12 alternative international)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
