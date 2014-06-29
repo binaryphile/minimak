@@ -1,12 +1,11 @@
 Included in this readme:
 
-- [Windows Boot Mappings for Minimak](#wbm)
-- [Portable Key Layout for Minimak](#pkl)
-- [Mac OSX Installation](#osx)
-- [Linux Installation](#lnx)
+- Windows Boot Mappings for Minimak
+- Portable Key Layout for Minimak
+- Mac OSX Installation
+- Linux Installation
 
-Windows Boot Mappings for Minimak {: #wbm}
-=================================
+## Windows Boot Mappings for Minimak
 
 To use Minimak as your system layout, registry mappings are included in
 the `boot_mappings` subdirectory.
@@ -27,8 +26,7 @@ If you want to use user mappings (on XP) instead of boot mappings, or
 you want to experiment with your own layouts, I recommend [Key
 Mapper](http://code.google.com/p/keymapper/).
 
-Installation
-------------
+#### Installation
 
 You must be administrator on your machine.
 
@@ -38,8 +36,7 @@ reboot.
 Once you've rebooted, your layout is changed and you don't have to do
 anything further to use it.
 
-Portable Key Layout for Minimak {: #pkl}
-===============================
+## Portable Key Layout for Minimak
 
 This is a copy of the [PKL](http://pkl.sourceforge.net/) project which
 has been customized for Minimak.  It was created by us and is not
@@ -53,8 +50,7 @@ to enter a password.
 
 None of these layouts include the Backspace to CapsLock mapping.
 
-Installation
-------------
+#### Installation
 
 PKL is located in the `pkl` subdirectory.
 
@@ -64,8 +60,7 @@ it.
 If you'd like to install it like a normal program, I recommend
 [ZipInstaller](http://www.nirsoft.net/utils/zipinst.html).
 
-Usage
------
+#### Usage
 
 - Run `pkl.exe`
 - __To change layouts:__  right-click the icon in the system tray and
@@ -75,18 +70,16 @@ Usage
 - __To get rid of the on-screen keyboard:__  press Win-F1.
 - __To toggle the layout on and off:__  press both Alt keys.
 
-Mac OSX Installation {: #osx}
-====================
+## Mac OSX Installation
 
-- Copy `Minimak.bundle` from the `osx` directory in the repository to `/Library/Keyboard Layouts` 
-  You will need to enter your password
+- Copy `Minimak.bundle` from the `osx` directory in the repository to
+`/Library/Keyboard Layouts` You will need to enter your password
 - Open _System Preferences > Keyboard > Input Sources_
 - Turn on the layouts you wish to use
 
 For information on Backslock on the Mac, see the [Colemak Mac page].
 
-Linux Installation
-==================
+## Linux Installation
 
 Allows minimak keyboard layouts to be loaded from _System
 Settings -> Keyboard Layout_.
@@ -116,7 +109,6 @@ sudo cp us /usr/share/X11/xkb/symbols/
 ~~~
 
 There are no Backslock mappings since many Linux systems have Backslock
-as a possible configuraion choice in their keyboard settings.
+as a possible configuration choice in their keyboard settings.
 
-[Colemak Mac page]: http://colemak.com/wiki/index.php?title=Mac 
-[xmodmap]: https://wiki.archlinux.org/index.php/Xmodmap
+[Colemak Mac page]: http://colemak.com/wiki/index.php?title=Mac
